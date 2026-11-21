@@ -165,7 +165,6 @@ function skipCurrent() {
   saveState();
   return snapshot();
 }
-
 const app = express();
 app.use(cors());
 app.use(express.json());
